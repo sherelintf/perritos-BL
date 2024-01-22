@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BL</name>
+    </assembly>
+    <members>
+        <member name="M:BL.Controllers.DogsController.GetDogs(System.String,System.String,System.Int32,System.Int32)">
+             <summary>
+             Get all dogs with pagination and filter by name and status
+             </summary>
+             <param name="name"></param>
+             <param name="status"></param>
+             <param name="offset"></param>
+             <param name="limit"></param>
+             <returns></returns>
+            
+        </member>
+        <member name="M:BL.Controllers.DogsController.GetDog(System.Guid)">
+             <summary>
+             Get a dog by id
+             </summary>
+             <param name="id"></param>
+             <returns></returns>
+            
+        </member>
+        <member name="M:BL.Controllers.DogsController.UpdateDog(System.Guid,BL.Models.Dog)">
+            <summary>
+            Update a dog by id
+            </summary>
+            <param name="id"></param>
+            <param name="dog"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BL.Controllers.DogsController.InsertDog(BL.Models.Dog)">
+            <summary>
+            Insert a dog
+            </summary>
+            <param name="dog"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BL.Controllers.DogsController.DeleteDog(System.Guid)">
+            <summary>
+            Delete a dog by id
+            </summary>
+            <param name="id"></param>
+            <returns>  </returns>
+        </member>
+        <member name="M:BL.Controllers.OwnersController.GetOwners">
+            <summary>
+            Get all owners
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BL.Controllers.OwnersController.GetOwner(System.Guid)">
+            <summary>
+            Get an owner by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BL.Controllers.OwnersController.InsertOwner(BL.Models.Owner)">
+            <summary>
+            Create a new owner
+            </summary>
+            <param name="owner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BL.Controllers.OwnersController.UpdateOwner(System.Guid,BL.Models.Owner)">
+            <summary>
+            Update an owner by id
+            </summary>
+            <param name="id"></param>
+            <param name="owner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BL.Controllers.OwnersController.DeleteOwner(System.Guid)">
+            <summary>
+             Delete an owner by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
